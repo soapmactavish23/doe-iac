@@ -18,7 +18,7 @@ key,value
 /DOE/UAT/APP/AWS-PARAMETERS-STORE,/doe/uat
 /DOE/UAT/APP/PROFILE-ACTIVE,uat
 /DOE/UAT/AWS/AWS-BUCKET-NAME,doe-uat-files
-/DOE/UAT/AWS/DIRECTORY,fotos
+/DOE/UAT/AWS/DIRECTORY,files
 /DOE/UAT/DATABASE/PASSWORD,ChkUat#7N!42@Ld
 /DOE/UAT/DATABASE/URL,jdbc:mysql://mysql.databases.svc.cluster.local:3306/doe_uat?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
 /DOE/UAT/DATABASE/USER,doe_uat_user
@@ -29,7 +29,7 @@ key,value
 /DOE/PROD/APP/AWS-PARAMETERS-STORE,/doe/prod
 /DOE/PROD/APP/PROFILE-ACTIVE,prod
 /DOE/PROD/AWS/AWS-BUCKET-NAME,doe-prod-files
-/DOE/PROD/AWS/DIRECTORY,fotos
+/DOE/PROD/AWS/DIRECTORY,files
 /DOE/PROD/DATABASE/PASSWORD,ChkProd#5R!68@Xs
 /DOE/PROD/DATABASE/URL,jdbc:mysql://mysql.databases.svc.cluster.local:3306/doe_prod?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
 /DOE/PROD/DATABASE/USER,doe_prod_user
