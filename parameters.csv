@@ -1,14 +1,16 @@
 key,value
 /DOE/COMMON/AWS/REGION,us-west-2
 /DOE/COMMON/KEYCLOAK/URL,http://keycloak.infra.svc.cluster.local:8080
-/DOE/COMMON/MAIL/PASSWORD,wfnn ptrd wukl rekb
 /DOE/COMMON/MAIL/USERNAME,softwarehousepa@gmail.com
+/DOE/COMMON/MAIL/PASSWORD,wfnn ptrd wukl rekb
+/DOE/COMMON/IA/BASE_URL_IA,http://doe-ia.house-software.com.br
+/DOE/COMMON/IA/AUTHORIZATION_IA,am9obkBleGFtcGxlLmNvbTphYmMxMjM=
 /DOE/COMMON/OBSERVABILITY/MANAGEMENT-OTLP-METRICS-EXPORT-URL,http://otel.observability.svc.cluster.local:4318/v1/metrics
 /DOE/DEV/APP/AWS-PARAMETERS-STORE,/doe/dev
 /DOE/DEV/APP/PROFILE-ACTIVE,dev
 /DOE/DEV/AWS/AWS-BUCKET-NAME,doe-dev-files
 /DOE/DEV/AWS/DIRECTORY,files
-/DOE/DEV/DATABASE/PASSWORD,ChkDev#6M!21@Pw
+/DOE/DEV/DATABASE/PASSWORD,K4;9\U<d06G*
 /DOE/DEV/DATABASE/URL,jdbc:mysql://mysql.databases.svc.cluster.local:3306/doe_dev?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
 /DOE/DEV/DATABASE/USER,doe_dev_user
 /DOE/DEV/KEYCLOAK/CLIENT-ADMIN-SECRET,rH8U18vAqFvpUGsHBf2xxdpp0dCWmPyw
@@ -19,7 +21,7 @@ key,value
 /DOE/UAT/APP/PROFILE-ACTIVE,uat
 /DOE/UAT/AWS/AWS-BUCKET-NAME,doe-uat-files
 /DOE/UAT/AWS/DIRECTORY,files
-/DOE/UAT/DATABASE/PASSWORD,ChkUat#7N!42@Ld
+/DOE/UAT/DATABASE/PASSWORD,9LgBW3?_m[6!
 /DOE/UAT/DATABASE/URL,jdbc:mysql://mysql.databases.svc.cluster.local:3306/doe_uat?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
 /DOE/UAT/DATABASE/USER,doe_uat_user
 /DOE/UAT/KEYCLOAK/CLIENT-ADMIN-SECRET,rFopnWjrwyHsTAe9V6aaIJpGpd8V2bxn
@@ -30,7 +32,7 @@ key,value
 /DOE/PROD/APP/PROFILE-ACTIVE,prod
 /DOE/PROD/AWS/AWS-BUCKET-NAME,doe-prod-files
 /DOE/PROD/AWS/DIRECTORY,files
-/DOE/PROD/DATABASE/PASSWORD,ChkProd#5R!68@Xs
+/DOE/PROD/DATABASE/PASSWORD,X}bV0z3hG[2^
 /DOE/PROD/DATABASE/URL,jdbc:mysql://mysql.databases.svc.cluster.local:3306/doe_prod?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
 /DOE/PROD/DATABASE/USER,doe_prod_user
 /DOE/PROD/KEYCLOAK/CLIENT-ADMIN-SECRET,9UENKdioFBtlsmWO78sGbSHaZZazCWgm
