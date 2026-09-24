@@ -6,6 +6,11 @@ key,value
 /DOE/COMMON/IA/BASE_URL_IA,http://doe-ia.house-software.com.br
 /DOE/COMMON/IA/AUTHORIZATION_IA,am9obkBleGFtcGxlLmNvbTphYmMxMjM=
 /DOE/COMMON/OBSERVABILITY/MANAGEMENT-OTLP-METRICS-EXPORT-URL,http://otel.observability.svc.cluster.local:4318/v1/metrics
+/DOE/COMMON/RABBITMQ/HOST,rabbitmq.house-software.com.br
+/DOE/COMMON/RABBITMQ/PORT,30672
+/DOE/COMMON/RABBITMQ/USERNAME,admin
+/DOE/COMMON/RABBITMQ/PASSWORD,GmG47i0sEcWN
+/DOE/COMMON/RABBITMQ/VHOST,/
 /DOE/DEV/APP/AWS-PARAMETERS-STORE,/doe/dev
 /DOE/DEV/APP/PROFILE-ACTIVE,dev
 /DOE/DEV/AWS/AWS-BUCKET-NAME,doe-dev-files
@@ -17,6 +22,8 @@ key,value
 /DOE/DEV/KEYCLOAK/CLIENT-ID,app_doe
 /DOE/DEV/KEYCLOAK/CLIENT-ID-ADMIN,admin_doe
 /DOE/DEV/KEYCLOAK/REALM,doe_dev
+/DOE/DEV/RABBITMQ/QUEUE,identification-orc-queue-doe-dev
+/DOE/DEV/RABBITMQ/DLQ,identification-orc-queue-doe-dev-dlq
 /DOE/UAT/APP/AWS-PARAMETERS-STORE,/doe/uat
 /DOE/UAT/APP/PROFILE-ACTIVE,uat
 /DOE/UAT/AWS/AWS-BUCKET-NAME,doe-uat-files
@@ -28,6 +35,8 @@ key,value
 /DOE/UAT/KEYCLOAK/CLIENT-ID,app_doe
 /DOE/UAT/KEYCLOAK/CLIENT-ID-ADMIN,admin_doe
 /DOE/UAT/KEYCLOAK/REALM,doe_uat
+/DOE/UAT/RABBITMQ/QUEUE,identification-orc-queue-doe-uat
+/DOE/UAT/RABBITMQ/DLQ,identification-orc-queue-doe-uat-dlq
 /DOE/PROD/APP/AWS-PARAMETERS-STORE,/doe/prod
 /DOE/PROD/APP/PROFILE-ACTIVE,prod
 /DOE/PROD/AWS/AWS-BUCKET-NAME,doe-prod-files
@@ -39,3 +48,5 @@ key,value
 /DOE/PROD/KEYCLOAK/CLIENT-ID,app_doe
 /DOE/PROD/KEYCLOAK/CLIENT-ID-ADMIN,admin_doe
 /DOE/PROD/KEYCLOAK/REALM,doe_prod
+/DOE/PROD/RABBITMQ/QUEUE,identification-orc-queue-doe-prod
+/DOE/PROD/RABBITMQ/DLQ,identification-orc-queue-doe-prod-dlq
