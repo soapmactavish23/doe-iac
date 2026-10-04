@@ -1,6 +1,6 @@
 key,value
 /DOE/COMMON/AWS/REGION,us-west-2
-/DOE/COMMON/KEYCLOAK/URL,http://keycloak.infra.svc.cluster.local:8080
+/DOE/COMMON/KEYCLOAK/URL,http://keycloak.house-software.com.br
 /DOE/COMMON/MAIL/USERNAME,softwarehousepa@gmail.com
 /DOE/COMMON/MAIL/PASSWORD,wfnn ptrd wukl rekb
 /DOE/COMMON/IA/BASE_URL_IA,http://doe-ia.house-software.com.br
